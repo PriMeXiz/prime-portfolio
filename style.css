@@ -1,0 +1,46 @@
+.Armin{
+    width: 100px;
+    height: 100px;
+}
+.D{
+    width: 140px;
+    height: 110px;
+}
+.icon{
+    width: 60px;
+    height: 60px;
+}
+.me{
+    font-size: 40px;;
+    overflow: hidden;
+    
+}
+.me > span{
+    position: relative;
+    display: inline-block;
+    color: crimson;
+    vertical-align: bottom;
+    height: 1.25em;
+    overflow: hidden;
+    margin-right: 20px;;
+}
+.me > span > span {
+    display: block;
+    animation: animateWords 5s infinite ease;
+}
+@keyframes animateWords{
+    0% {transform:  translateY(0%);}
+    25% {transform: translateY(-100%);}
+    50% {transform: translateY(-200%);}
+    75% {transform: translateY(-300%);}
+    100% {transform: translateY(0%);}
+}
+.me{ 
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    color: black;
+    height: 20vh; 
+}
